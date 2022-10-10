@@ -2,15 +2,11 @@
 <templates xml:space="preserve">
 
 <t t-name="awesome_tshirt.clientaction" owl="1">
-    <div class="p-3">
-        hello world
-        <Counter/>
-        <Card>
-            <t t-set-slot="title">My card</t>
-            Some quick example text...
-        </Card>
-        <TodoList/>       
-    </div>
+    <Layout display="display">
+        <t t-set-slot="control-panel-bottom-left">
+            Hello owl
+        </t>
+    </Layout>
 </t>
 
 </templates>
