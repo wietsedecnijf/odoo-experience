@@ -4,7 +4,7 @@ const { Component, useState } = owl;
 
 export class Counter extends Component {
     setup() {
-        this.state = useState({value: 1});
+        this.state = useState({ value: 1 });
     }
 
     increment() {
